@@ -31,7 +31,7 @@ Le Client a été généré automatiquement à la suite de la création du webse
 La démonstration nécessite l'éxécution de trois méthodes :
 * add(String name, double value)
 * update(String name, double newRate)
-* getConversion(double monnaieEntree, String typeEntree, String typeSortie
+* getConversion(double monnaieEntree, String typeEntree, String typeSortie)
 
 La fonction add permet d'ajouter une nouvelle Currency à la liste des Currency déjà existante. Cette fonction add prend deux paramètres :
 * Le nom de la nouvelle Currency que nous voulons créer
@@ -45,3 +45,26 @@ La fonction getConversion convertie une devise en une autre. GetConversion, quan
 * Le somme que nous voulons convertir
 * La devise que nous voulons convertir
 * La devise vers laquelle nous voulons convertir
+
+Nous vous proposons le test suivant afin de vérifier le bon fonctionnement des méthodes :
+ Tout d'abord :
+ * cliquer sur le fichier currencymanagementimpl.wsdl 
+ * faire un clic droit sélectionner Web Services  
+ * sélectionner Generate Client
+ * mettre la jauge au maximum
+ * cliquer sur finish
+ 
+ Dans un second temps :
+ * sélectionner la méthode add puis entrer comme nouvelle monnaie "Enzo" et comme valeur entrer 20 -> La valeur de retour est "Done"
+ * sélectionner la méthode getConversion et demander l'équivalent de 1 "Euro" en "Enzo" -> La valeur de retour est 20
+ * sélectionner la méthode update et entrer "Enzo" comme monnaie avec pour valeur 10 -> La valeur de retour est "Done"
+ * sélectionner la méthode getConversion et demander l'équivalent de 1 "Euro" en "Enzo" -> La valeur de retour est désormais 10
+ * sélectionner la méthode getConversion et demander l'équivalent de  "" en "" -> La valeur de retour est 
+ * sélectionner la méthode getConversion et demander l'équivalent de  "" en "" -> La valeur de retour est 
+ * sélectionner la méthode getConversion et demander l'équivalent de  "" en "" -> La valeur de retour est 
+ * sélectionner la méthode getConversion et demander l'équivalent de  "" en "" -> La valeur de retour est 
+ * sélectionner la méthode getConversion et demander l'équivalent de  "" en "" -> La valeur de retour est 
+
+
+
+## Contenue du fichier wsdl
