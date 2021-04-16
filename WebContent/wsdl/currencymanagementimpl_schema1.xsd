@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?><xs:schema xmlns:tns="http://service.webservice.cur/" xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="unqualified" targetNamespace="http://service.webservice.cur/" version="1.0">
+<xs:element name="addCurrency" type="tns:addCurrency"/>
+<xs:element name="addCurrencyResponse" type="tns:addCurrencyResponse"/>
+<xs:element name="conversion" type="tns:conversion"/>
+<xs:element name="conversionResponse" type="tns:conversionResponse"/>
+<xs:element name="updateCurrency" type="tns:updateCurrency"/>
+<xs:element name="updateCurrencyResponse" type="tns:updateCurrencyResponse"/>
+<xs:complexType name="conversion">
+    <xs:sequence>
+      <xs:element name="currencyInput" type="xs:double"/>
+      <xs:element minOccurs="0" name="typeInput" type="xs:string"/>
+      <xs:element minOccurs="0" name="typeOutput" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+<xs:complexType name="conversionResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="monnaieSortie" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+<xs:complexType name="addCurrency">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="newCurrencyName" type="xs:string"/>
+      <xs:element name="newCurrencyValue" type="xs:double"/>
+    </xs:sequence>
+  </xs:complexType>
+<xs:complexType name="addCurrencyResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+<xs:complexType name="updateCurrency">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="currencyName" type="xs:string"/>
+      <xs:element name="newRate" type="xs:double"/>
+    </xs:sequence>
+  </xs:complexType>
+<xs:complexType name="updateCurrencyResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>
