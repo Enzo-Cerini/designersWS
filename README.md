@@ -55,14 +55,13 @@ Nous vous proposons le test suivant afin de vérifier le bon fonctionnement des 
  
  Dans un second temps :
  * sélectionner la méthode add puis entrer comme nouvelle monnaie "Enzo" et comme valeur entrer 20 -> La valeur de retour est "Done"
- * sélectionner la méthode getConversion et demander l'équivalent de 1 "Euro" en "Enzo" -> La valeur de retour est 20
+ * sélectionner la méthode getConversion et demander l'équivalent de 1 "Euro" en "Enzo" -> La valeur de retour est "1 Euro = 20 Enzo"
  * sélectionner la méthode update et entrer "Enzo" comme monnaie avec pour valeur 10 -> La valeur de retour est "Done"
- * sélectionner la méthode getConversion et demander l'équivalent de 1 "Euro" en "Enzo" -> La valeur de retour est désormais 10
- * sélectionner la méthode getConversion et demander l'équivalent de  "" en "" -> La valeur de retour est 
- * sélectionner la méthode getConversion et demander l'équivalent de  "" en "" -> La valeur de retour est 
- * sélectionner la méthode getConversion et demander l'équivalent de  "" en "" -> La valeur de retour est 
- * sélectionner la méthode getConversion et demander l'équivalent de  "" en "" -> La valeur de retour est 
- * sélectionner la méthode getConversion et demander l'équivalent de  "" en "" -> La valeur de retour est 
+ * sélectionner la méthode getConversion et demander l'équivalent de 1 "Euro" en "Enzo" -> La valeur de retour est désormais "1 Euro = 10 Enzo"
+ * sélectionner la méthode getConversion et demander l'équivalent de 22.3 "Dollar" en "Yen" -> La valeur de retour est "22.3 Dollar = 2444.5678 Yen"
+ * sélectionner la méthode getConversion et demander l'équivalent de 50 "Euro" en "Roupie" -> La valeur de retour est "50 Euro = 4442.5 Roupie"
+ * sélectionner la méthode getConversion et demander l'équivalent de 15 "Livre" en "Yen" -> La valeur de retour est "15 Livre = 2249.1379310343 Yen"
+ 
 
 
 ## Contenue du fichier wsdl
