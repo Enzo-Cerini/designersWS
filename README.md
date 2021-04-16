@@ -67,7 +67,7 @@ Nous vous proposons le test suivant afin de vérifier le bon fonctionnement des 
 
 ## Contenue du fichier wsdl
 
-~~~
+~~~ xml
 <?xml version="1.0" encoding="UTF-8"?>
 <wsdl:definitions name="CurrencyManagementImplService" targetNamespace="http://service.webservice.cur/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:tns="http://service.webservice.cur/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/">
   <wsdl:types>
