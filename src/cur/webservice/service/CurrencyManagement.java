@@ -8,7 +8,7 @@ import javax.jws.WebService;
 
 /**
  * @file CurrencyManagement.java
- * @brief Interface qui permet de déclarer les méthodes concernant les Currency qui vont être implémentée dans CurrencyManagementImpl.java
+ * @brief Interface qui permet de déclarer les méthodes concernant les Currency qui vont être implémentées dans CurrencyManagementImpl.java
  * @author OBEYESEKARA Avishka, CERINI Enzo
  * @version 1.0
  * @date 15/04/2021
