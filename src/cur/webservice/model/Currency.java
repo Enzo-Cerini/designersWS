@@ -19,6 +19,7 @@ public class Currency {
 	 * @param name Nom de la Currency (Type String)
 	 * @param value Valeur de la Currency (Type Double)
 	 */
+	
 	public Currency(String name, double value) {
 		super();
 		this.name = name;
@@ -30,6 +31,7 @@ public class Currency {
 	 * Fonction qui retourne le nom de la Currency
 	 * @return Le nom de la Currency
 	 */
+	
 	public String getName() {
 		return name;
 	}
@@ -39,6 +41,7 @@ public class Currency {
 	 * Fonction qui met à jour le nom de la Currency
 	 * @param name Nouveau nom de la Currency (Type String)
 	 */
+	
 	public void setName(String name) {
 		this.name = name;
 	}
@@ -48,6 +51,7 @@ public class Currency {
 	 * Fonction qui retourne la valeur de la Currency
 	 * @return La valeur de la Currency
 	 */
+	
 	public double getValue() {
 		return value;
 	}
@@ -57,6 +61,7 @@ public class Currency {
 	 * Fonction qui met à jour la valeur de la Currency
 	 * @param value Nouvelle valeur de la Currency (Type Double)
 	 */
+	
 	public void setValue(double value) {
 		this.value = value;
 	}

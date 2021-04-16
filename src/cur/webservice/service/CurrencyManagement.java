@@ -14,6 +14,7 @@ import javax.jws.WebService;
  *
  * Interface contenant les déclarations des méthodes concernant les Currency
  */
+
 @WebService(name = "CurrencyManagement", targetNamespace = "http://service.webservice.cur/")
 public interface CurrencyManagement {
 	

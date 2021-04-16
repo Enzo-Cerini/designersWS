@@ -17,6 +17,7 @@ import cur.webservice.model.Currency;
  *
  * Classe contenant toutes les fonctions associées aux Currency.
  */
+
 @WebService(targetNamespace = "http://service.webservice.cur/", portName = "CurrencyManagementImplPort", serviceName = "CurrencyManagementImplService")
 public class CurrencyManagementImpl implements CurrencyManagement {
 
