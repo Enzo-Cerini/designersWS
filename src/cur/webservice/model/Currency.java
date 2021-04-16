@@ -2,10 +2,9 @@ package cur.webservice.model;
 
 /**
  * @file Currency.java
- * @brief Classe qui permet de créer l'objet Currency
+ * Classe qui permet de créer l'objet Currency
  * @author OBEYESEKARA Avishka, CERINI Enzo
  * @version 1.0
- * @date 15/04/2021
  *
  * Classe associée à la création d'une Currency.
  *
@@ -28,7 +27,7 @@ public class Currency {
 
 	/**
 	 * String getName()
-	 * @brief Fonction qui retourne le nom de la Currency
+	 * Fonction qui retourne le nom de la Currency
 	 * @return Le nom de la Currency
 	 */
 	public String getName() {
@@ -37,7 +36,7 @@ public class Currency {
 
 	/**
 	 * void setName(String name)
-	 * @brief fonction qui met à jour le nom de la Currency
+	 * Fonction qui met à jour le nom de la Currency
 	 * @param name Nouveau nom de la Currency (Type String)
 	 */
 	public void setName(String name) {
@@ -46,7 +45,7 @@ public class Currency {
 
 	/**
 	 * double getValue()
-	 * @brief Fonction qui retourne la valeur de la Currency
+	 * Fonction qui retourne la valeur de la Currency
 	 * @return La valeur de la Currency
 	 */
 	public double getValue() {
@@ -55,7 +54,7 @@ public class Currency {
 
 	/**
 	 * void setValue(double value)
-	 * @brief fonction qui met à jour la valeur de la Currency
+	 * Fonction qui met à jour la valeur de la Currency
 	 * @param value Nouvelle valeur de la Currency (Type Double)
 	 */
 	public void setValue(double value) {

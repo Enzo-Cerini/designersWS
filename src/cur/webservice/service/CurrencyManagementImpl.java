@@ -11,10 +11,9 @@ import cur.webservice.model.Currency;
 
 /**
  * @file CurrencyManagementImpl.java
- * @brief Classe qui s'occupe de toutes les opérations concernant les Currency
+ * Classe qui s'occupe de toutes les opérations concernant les Currency
  * @author OBEYESEKARA Avishka, CERINI Enzo
  * @version 1.0
- * @date 15/04/2021
  *
  * Classe contenant toutes les fonctions associées aux Currency.
  */
@@ -34,7 +33,7 @@ public class CurrencyManagementImpl implements CurrencyManagement {
 
 	/**
 	 * String conversion(double monnaieEntree, String typeEntree, String typeSortie)
-	 * @brief Fonction qui convertie une devise en une autre
+	 * Fonction qui convertie une devise en une autre
 	 * @param monnaieEntree Somme que nous voulons convertir (Type Double)
 	 * @param typeEntree Devise que nous voulons convertir (Type String)
 	 * @param typeSortie Devise vers laquelle nous voulons convertir (Type String)
@@ -79,7 +78,7 @@ public class CurrencyManagementImpl implements CurrencyManagement {
 
 	/**
 	 * String addCurrency(String key, double nouvelleMonnaie)
-	 * @brief Fonction permettant d'ajouter une nouvelle Currency à la liste des Currency déjà existante 
+	 * Fonction permettant d'ajouter une nouvelle Currency à la liste des Currency déjà existante 
 	 * @param key Nom de la nouvelle Currency (Type String)
 	 * @param nouvelleMonnaie Valeur de la nouvelle Currency (Type Double)
 	 * @return Retourne un String qui indique que l'opération s'est réalisée avec succès
@@ -94,7 +93,7 @@ public class CurrencyManagementImpl implements CurrencyManagement {
 
 	/**
 	 * String updateCurrency(String name, double newRate)
-	 * @brief Fonction qui met à jour une Currency déjà existante
+	 * Fonction qui met à jour une Currency déjà existante
 	 * @param name Nom de la Currency que nous voulons changer (Type String)
 	 * @param newRate Nouvelle valeur que nous voulons attribuer à la Currency (Type Double)
 	 * @return Retourne un String qui indique que l'opération s'est réalisée avec succès
