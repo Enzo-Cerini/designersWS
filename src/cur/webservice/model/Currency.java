@@ -10,6 +10,7 @@ package cur.webservice.model;
  * Classe associée à la création d'une Currency.
  *
  */
+
 public class Currency {
 	private String name;
 	private double value;
